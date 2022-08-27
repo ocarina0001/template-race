@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="OKA_BasePlayerKindTemplate">
+    <race>OKA_TemplateRace</race>
+    <combatPower>30</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <initialWillRange>0~0</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OKA_BasePlayerKindTemplate">
+    <defName>OKA_TemplateColonist</defName>
+    <label>colonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <initialResistanceRange>0~0</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>
